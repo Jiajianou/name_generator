@@ -1,0 +1,28 @@
+{
+  "name": "name_generator",
+  "version": "1.0.0",
+  "description": "A simple name generator that allows you to generate a name based on consonant & vowel compositions.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiajianou/name_generator.git"
+  },
+  "keywords": [
+    "name",
+    "generator"
+  ],
+  "author": "Jiajian Ou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiajianou/name_generator/issues"
+  },
+  "homepage": "https://github.com/Jiajianou/name_generator#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
